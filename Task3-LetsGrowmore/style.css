@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+     outline: none;
+}
+body{
+    background-image:url(geometry-1023846_640.jpg);
+}
+h1.center{
+justify-content: center;
+text-align: center;
+color: rgb(2, 1, 1);
+background-color: bisque;
+}
+.container .row{
+    justify-content: center;
+    text-align: center;
+}
+.button{
+    padding: 20px;
+    margin: 0 5px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: larger;
+    background-image: linear-gradient(rgb(240, 245, 114), rgb(238, 247, 248));
+    width: 75px; 
+}
+.button:hover{
+    background-image: linear-gradient(rgb(180, 245, 233), rgb(142, 183, 214));
+}
+
+.row{
+    margin: 8px 0;
+}
+ .row input{
+    margin: 10px;
+    padding: 10px 70px; 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px; 
+    background-color: rgb(242, 251, 249);
+    font-size: 17px;
+    text-align: right;
+ }
